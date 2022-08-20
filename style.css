@@ -31,6 +31,7 @@ h1 {
   border-top-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
   padding: 2rem;
+  width: 40%;
 }
 .sec1 {
   background-color: #f1f1f1;
@@ -181,4 +182,50 @@ h1 {
   border-top-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
   padding: 2rem;
+}
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  outline-offset: 1rem;
+  outline: outset 0.5rem purple;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  padding: 2rem;
+}
+button:hover {
+  /* background-color: #282e34; */
+  box-shadow: 5px 5px 5px #282e34;
+  cursor: pointer;
+}
+button:active {
+  transform: scale(95%);
+}
+button::first-letter {
+  scroll-padding-block-start: ;
+}
+button2:hover {
+  box-shadow: 1px 1px 3px #282e34;
+  cursor: pointer;
+}
+#bottom {
+  text-decoration: none;
+  color: white;
+}
+.link {
+  color: black;
+}
+.link2 {
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+.link:hover {
+  transform: scale(105%);
+  transition: 1s;
+}
+.link2:hover {
+  transform: scale(105%);
+  transition: 100ms;
 }
